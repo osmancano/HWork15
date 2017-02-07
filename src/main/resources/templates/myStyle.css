@@ -1,0 +1,29 @@
+.table th td {
+    white-space: nowrap;
+    width: 1%;
+}
+html,body{
+    height: 100%
+}
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar, .modal-footer, .modal-header {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #095b77;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #095b77;
+    color: white;
+    padding: 15px;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
